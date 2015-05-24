@@ -31,10 +31,10 @@ The required packages to run the analysis are:
 * data.table
 
 ### Procedure Steps:
-# Download the UCI HAR Samsung Dataset from the links above
-# Unzip the contents of the data set
-# Place run_analysis.R in the same directory as the root folder of the UCI HAR Dataset
-# Run run_analysis.R
+* Download the UCI HAR Samsung Dataset from the links above
+* Unzip the contents of the data set
+* Place run_analysis.R in the same directory as the root folder of the UCI HAR Dataset
+* Run run_analysis.R
 
 ## Purpose of run_analysis.R
 run_analysis.R creates a tidy version of the data found in the UCI HAR datset.  The data from both the test and train data sets are merged into a single data set and outputed to a txt file.  The delimiter for the text file is a single space.  Each row of the tidy data set in the main output file (uci_har_tidy.txt) contains an observation from a given subject and activity.
